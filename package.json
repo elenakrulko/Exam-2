@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "cypress": "^13.6.6",
+    "json-server": "^0.17.4",
+    "json-server-auth": "^2.1.0"
+  },
+  "scripts": {
+    "server": "npx json-server-auth db.json"
+  },
+  "devDependencies": {
+    "@faker-js/faker": "^8.4.1"
+  }
+}
